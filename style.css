@@ -1,0 +1,74 @@
+body{
+    background-color: yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+.expense-tracker{
+    max-width: 500px;
+    margin:0 auto;
+    padding:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:1px solid #454574;
+    border-radius:5px;
+    background-color: beige;
+}
+.expense-header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+.add-expense-btn{
+    padding:10px 30px;
+    background-color: green;
+    color:#fff;
+    border:none;
+    font-size:16px;
+    font-weight:600;
+    text-transform:uppercase;
+    border-radius:5px;
+    cursor:pointer;
+    transition:background-color 0.3s ease;
+    
+
+
+}
+.total-expense{
+    text-align:right;
+    
+}
+.expense-list{
+    margin-bottom:20px;
+}
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:white;
+    padding:10px;
+    border-radius:5px;
+    margin-bottom:10px;
+
+}
+.expense-item-description{
+    font-weight:bold;
+}
+.expense-item-amount{
+    font-weight:bold;
+}
+.delete-expense-btn{
+    background-color:red ;
+    color:white;
+    border:none;
+    border: radius 50px;
+    width:30px;
+    height:30px;
+    font-size:16px;
+    font-weight: bold;
+    cursor:pointer;
+
+}
+.expense-item-category {
+  font-style: italic;
+  color: #555;
+}

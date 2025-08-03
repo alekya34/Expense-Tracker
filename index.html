@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="expense-tracker">
+      <div class="expense-header">
+        <h2>Expense Tracker</h2>
+
+        <button class="add-expense-btn">Add Expense</button>
+      </div>
+      <div class="expense-form">
+        <input type="text" id="description" placeholder="Enter description" />
+        <input type="number" id="amount" placeholder="Enter amount" />
+        <select id="category">
+          <option value="Food">Food</option>
+          <option value="Travel">Travel</option>
+          <option value="Shopping">Shopping</option>
+          <option value="Other">Other</option>
+        </select>
+        <button id="submit-expense">Submit</button>
+      </div>
+
+      <div class="expense-list"></div>
+      <div class="total-expense">
+        <h3>Total Expense: $0</h3>
+      </div>
+      <canvas id="expense-chart" width="400" height="200"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
